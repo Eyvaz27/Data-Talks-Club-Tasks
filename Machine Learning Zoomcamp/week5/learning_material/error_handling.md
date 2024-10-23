@@ -13,5 +13,7 @@ pipenv lock -->
 pip install --upgrade pip
 pip cache purge
 pipenv --rm
-pipenv install numpy scikit-learn flask -d --skip-lock
+pipenv install numpy scikit-learn flask gunicorn pandas seaborn matplotlib -d --skip-lock
+pip freeze > requirements.txt
+pipenv install -r requirements.txt
 pipenv shell

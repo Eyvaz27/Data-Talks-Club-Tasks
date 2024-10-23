@@ -1,7 +1,5 @@
 import pickle
 import numpy as np
-import pandas as pd
-import seaborn as sns
 import flask
 from flask import Flask
 from flask import request

@@ -11,7 +11,7 @@ from sklearn.metrics import roc_auc_score, precision_score, recall_score
 
 C = 1.0
 
-raw_data = pd.read_csv("/app/new/splatter-image/DTC/Machine Learning Zoomcamp/week3/bank-full.csv", sep=";")
+raw_data = pd.read_csv("/workspaces/Data-Talks-Club-Tasks/Machine Learning Zoomcamp/week3/bank-full.csv", sep=";")
 raw_data.columns = raw_data.columns.str.lower().str.replace(' ', '_')
 
 used_columns = ["age", "job", "marital", "education", "balance", 
