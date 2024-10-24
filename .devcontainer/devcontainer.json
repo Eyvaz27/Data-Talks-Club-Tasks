@@ -1,0 +1,22 @@
+
+{ "name": "Python 3",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "mcr.microsoft.com/devcontainers/python:0-3.11-bullseye",
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/coverage-py:2": {}},
+  // Configure tool-specific properties.
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
+  
+// {
+//  "image": "mcr.microsoft.com/devcontainers/universal:2",
+//  "features": {
+//  }
+// }
